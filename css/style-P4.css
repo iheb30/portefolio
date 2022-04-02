@@ -1,0 +1,135 @@
+/* ******************   HEADER   ********************* */
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+}
+
+header nav a {
+    font-size: 14px;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 10px;
+}
+header nav a:hover {
+    background-color: red;
+    color: white;
+}
+
+header div:first-child {
+    margin-left: 15px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+/* ******************   MAIN   ********************* */
+
+main {
+    padding-bottom: 50px;
+    color: black;
+    background-color: #ffefd5;
+}
+
+main h1 {
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 50px;
+}
+
+main p {
+    margin-bottom: 50px;
+}
+
+form {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "label1"
+        "input1"
+        "label2"
+        "input2"
+        "label3"
+        "input3"
+        "label4"
+        "input4"
+        "label5"
+        "input5"
+        "validation1";
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    max-width: 50%;
+}
+
+form label:first-of-type {
+    grid-area: label1;
+    width: 100%;
+}
+
+#nom {
+    grid-area: input1;
+    width: 100%;
+}
+
+form label:nth-of-type(2) {
+    grid-area: label2;
+}
+
+#prenom {
+    grid-area: input2;
+}
+
+form label:nth-of-type(3) {
+    grid-area: label3;
+}
+
+#sujet {
+    grid-area: input3;
+}
+
+form label:nth-of-type(4) {
+    grid-area: label4;
+}
+
+#budget {
+    grid-area: input4;
+}
+
+form label:nth-of-type(5) {
+    grid-area: label5;
+}
+
+#message {
+    grid-area: input5;
+}
+
+#validation {
+    grid-area: validation1;
+    width: 10vh;
+    margin-top: 20px;
+    position: relative;
+    left: 50px;
+}

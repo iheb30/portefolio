@@ -1,0 +1,90 @@
+/* ******************   HEADER   ********************* */
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+}
+
+header nav a {
+    align-items: center;
+    margin-right: 15px;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 10px;
+}
+header nav a:hover {
+    background-color: red;
+    color: white;
+}
+
+header div:first-child {
+    margin-left: 15px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+/* ********************   MAIN   *********************** */
+
+main :not(figcaption) {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+
+.bienvenue {
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+main img {
+    height: 20vh;
+    width: 20vh;
+    margin-right: 15px;
+}
+
+main p {
+    width: 30vh;
+}
+
+main a {
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px;
+    color: white;
+}
+
+a:hover {
+    background-color: red;
+    color: white;
+}
+
+main nav {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+main div:first-child {
+    padding: 50px 0;
+}
+
+figcaption {
+    display: none;
+}

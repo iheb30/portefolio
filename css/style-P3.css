@@ -1,0 +1,82 @@
+/* ******************   HEADER   ********************* */
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
+header {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+}
+
+header nav a {
+    align-items: center;
+    margin-right: 15px;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 10px;
+}
+header nav a:hover {
+    background-color: red;
+    color: white;
+}
+
+header div:first-child {
+    margin-left: 15px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+/* ***************** MAIN ****************** */
+
+main img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+main h1 {
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "fig1 fig2"
+        "fig3 fig4";
+}
+
+figure {
+    display: none;
+    padding: 10px;
+    border: 1px solid purple;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+main a {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}

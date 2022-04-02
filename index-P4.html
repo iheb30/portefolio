@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Ma superbe interface</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/style-P4.css" />
+        <link rel="stylesheet" href="css/style-mobile-P4.css" />
+        <link rel="stylesheet" href="css/normalizer.css" />
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+        <header>
+            <div>
+                <img src="img/logo.png" alt="logo" />
+                <h1>Iheb</h1>
+            </div>
+            <nav>
+                <a href="index-P1.html">Accueil</a>
+                <a href="index-P2.html">Parcours</a>
+                <a href="index-P3.html">Projets</a>
+                <a href="index-P4.html">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Que puis-je faire pour vous aider ?</h1>
+            <p>
+                Inscrivez vos coordonner et laissez un commentaire sur notre
+                plateforme, on vous répondra dans les plus brefs délais.
+            </p>
+            <form method="post">
+                <fieldset>
+                    <legend>Vos coordonner</legend>
+                    <label for="nom">Nom *</label>
+                    <input type="text" name="nom" id="nom" required />
+                    <label for="prénom">Prénom *</label>
+                    <input type="text" name="prénom" id="prénom" required />
+                    <label for="sujet">Sujet</label>
+                    <input type="text" name="sujet" id="sujet" />
+                    <label for="budget">budget</label>
+                    <input type="number" name="budget" id="budget" />
+                    <label for="message">Message *</label>
+                    <input type="text" name="message" id="message" required />
+                    <input type="submit" value="valider" id="validation" />
+                </fieldset>
+            </form>
+        </main>
+        <script></script>
+    </body>
+</html>

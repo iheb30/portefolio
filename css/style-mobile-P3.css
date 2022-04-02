@@ -1,0 +1,17 @@
+@media screen and (max-width: 480px) {
+    header nav a {
+        margin-right: 0px;
+        padding: 5px;
+    }
+    main {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            "fig1"
+            "fig2"
+            "fig3"
+            "fig4";
+    }
+}
